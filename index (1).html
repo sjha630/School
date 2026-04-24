@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Admission Form</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h1>Admission Form</h1>
+
+<form action="/submit" method="post">
+<input name="studentName" placeholder="Student Name">
+<input name="fatherName" placeholder="Father Name">
+<input name="email" placeholder="Email">
+<input name="percentage" placeholder="Percentage">
+
+<select name="stream">
+<option>Science with Maths</option>
+<option>Commerce</option>
+<option>Humanities</option>
+</select>
+
+<button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
